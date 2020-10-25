@@ -1,0 +1,28 @@
+{
+  "name": "fullstack-rest-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "seed": "cross-env DB_ENABLE_LOGGING=true node './seed'"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "dependencies": {
+    "basic-auth": "^2.0.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "cross-env": "^5.2.1",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "promise.prototype.finally": "^3.1.2",
+    "sequelize": "^6.3.0",
+    "sequelize-cli": "^6.2.0",
+    "sqlite": "^4.0.11",
+    "sqlite3": "^4.2.0"
+  }
+}
